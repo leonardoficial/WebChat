@@ -2,7 +2,7 @@
 Um simples sistema de Web Chat escrito inteiramente em ReactJS e ExpressJS. Criado apenas testar minhas habilidades com o Framework ExpressJS do node e aprender boas práticas de back-end. 
 
 ## status: ***em desenvolvimento*** 
-***a ser implementado:*** ChatPage View, SQL queries, Express/NodeJS API 
+***a ser implementado:*** Nada em planejamento.
 
 ## principais dependências 
 - ReactJS 

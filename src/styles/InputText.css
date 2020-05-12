@@ -1,0 +1,10 @@
+.form-control.coz-input {
+  background-color: #eee;
+  border-radius: 0px;
+  border: 1px solid #41c0fa;
+  border-bottom-width: 4px;
+  height: 50px;
+}
+.form-control.coz-input:hover {
+  border: none;
+}

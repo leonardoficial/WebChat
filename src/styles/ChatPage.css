@@ -1,0 +1,136 @@
+body, html, #root { 
+  height: 100%;
+}
+#haha {
+  height: 100%;
+}
+.chat-page {
+  padding-top: 80px;
+  height: 100%;
+}
+.chat-page .chat-box-header {
+  background: lightgray;
+  border: 1px solid lightgray;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+.exit-btn {
+  color: red;
+  float: right;
+}
+.chat-page .chat-box-header p {
+  float: left;
+  margin-top: 5px;
+}
+.chat-page .chat-holder {
+  height: 500px;
+  padding: 5px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.chat-page .chat-box {
+  padding-bottom: 60px;
+}
+.chat-page .chat-box-action {
+  background: #00468B;
+  color: white;
+  border: 1px solid gray;
+  box-shadow: 0 8px 6px -6px lightgray;
+  margin: 20px auto;
+  padding: 2px 4px;
+  opacity: 0.5;
+  text-align: center;
+  width: 90%;
+}
+.chat-page .chat-box-action .message-header {
+  /*display: inline-block;*/
+}
+
+.chat-page .chat-box-action .message-header::before,
+.chat-page .chat-box-action .message-header::after {
+  content: " * ";
+}
+.chat-page .chat-box-action .message-body {
+  /*display: inline-block;*/
+}
+.chat-page .chat-box-action .message-body::before {
+  content: " realizou ";
+}
+
+
+
+.chat-page .chat-box-message, .chat-box-active {
+  background: #eee;
+  border: 1px solid gray;
+  box-shadow: 0 8px 6px -6px lightgray;
+  margin: 10px 0;
+  padding: 2px 6px;
+  width: 60%;
+}
+.chat-page .chat-box-active {
+  background: #303030;
+  color: white;
+  margin-left: 40%;
+}
+
+.chat-page .message-header {
+  width: 100%;
+}
+.chat-page .message-header .header-user {
+  font-weight: bold;
+  height: 25px;
+  margin: 0px;
+}
+.chat-page .chat-box-message .message-body {
+  color: gray;
+  padding: 0 4px;
+}
+.chat-page .chat-box-active .message-body {
+  color: white;
+  padding: 0 4px;
+}
+
+.chat-page .chat-box-input {
+  border-top: 1px solid lightgray;
+  bottom: 0px;
+  height: 100px;
+  left: 0px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.chat-page .chat-box-input.input-group textarea,
+.chat-page .chat-box-input.input-group button {
+  border-radius: 0px;
+  border: none;
+  resize: none;
+}
+.chat-page .chat-box-input.input-group button {
+  min-width: 60px;
+}
+
+.chat-page .chat-box-footer {
+  padding: 25px 15px;
+  width: 100%;
+}
+.chat-page .chat-box-footer .btn {
+  border-radius: 100%;
+  box-shadow: 0 0 2px gray;
+  height: 60px;
+  padding: 5px 0;
+  text-align: center;
+  width: 60px;
+}
+.chat-page .chat-box-footer .btn p {
+  color: gray;
+  font-size: small;
+}
+.users-holder {
+  border: 1px solid green;
+  height: 400px;
+}

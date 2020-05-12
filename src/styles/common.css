@@ -1,0 +1,11 @@
+body, html { 
+  background-color: #FFF;
+  height: 100%;
+}
+.btn.coz-btn {
+  border-radius: 1px;
+  border: 1px solid #303030;
+  border-bottom: 4px solid #303030;
+  margin: 8px 0px;
+  width: 100%;
+}

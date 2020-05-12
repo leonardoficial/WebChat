@@ -1,0 +1,22 @@
+.chat-logo {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+.chat-logo .logo-img span {
+  color: lightblue;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 4px;
+}
+.chat-logo .logo-img img {
+  
+}
+.chat-logo .logo-text {
+  border: 1px solid lightgray;
+  color: gray;
+  padding: 8px;
+  width: 100%;
+}

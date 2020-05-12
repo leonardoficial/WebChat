@@ -1,0 +1,19 @@
+.login-holder {
+  /*background-color: #696969;
+  border: 2px solid black;*/
+}
+.login-holder .tag {
+  border-bottom: 1px solid #303030;
+  padding-bottom: 4px;
+  text-align: center;
+}
+.login-holder form {
+  margin: 30px 0px;
+}
+.login-holder label {
+  color: #303030;
+  font-weight: bold;
+}
+
+
+
